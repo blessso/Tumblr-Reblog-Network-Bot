@@ -86,7 +86,7 @@ The bot bypasses detection by Tumblr’s moderation system using a blend of rand
 | CAPTCHA Handling          | Supports manual and third-party CAPTCHA solving services.                  |
 
 
-## Key Stats:";
+## Key Stats:
 - **Automation Accuracy:** 97% across multiple Tumblr themes
 - **Session Stability:** 24/7 with built-in recovery and retry logic
 - **Concurrent Account Management:** Up to 250+ Tumblr accounts simultaneously

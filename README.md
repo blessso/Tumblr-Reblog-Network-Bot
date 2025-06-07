@@ -1,101 +1,117 @@
-<h1 align="center">Tumblr Reblog Network Bot</h1>
+# 🌟 Tumblr Reblog Network Bot 🌟
 
-## Project Overview:
-This project is a stealth Tumblr automation bot built to simulate coordinated engagement via mass reblogs. Designed to mimic natural Tumblr user behavior, it enables users to boost the visibility of a post by having multiple accounts continuously reblog it across the platform. This method is commonly used in viral loops, niche promotions, or private content networks.
+![Tumblr Reblog Network Bot](https://img.shields.io/badge/Tumblr%20Reblog%20Bot-v1.0-blue)
 
-The bot bypasses detection by Tumblr’s moderation system using a blend of randomized actions, proxy rotation, and advanced browser fingerprinting. Inspired by underground discussions and social exchange tactics, this bot provides a robust and scalable alternative to manual reposting or paid promo services.
+Welcome to the **Tumblr Reblog Network Bot** repository! This project offers a stealth automation solution designed to mimic real Tumblr users. With advanced techniques such as fingerprint spoofing, rotating proxies, and human-like behavior, this bot allows you to mass reblog posts effectively. Our goal is to enhance your viral reach and facilitate undetectable growth on Tumblr.
 
-## Core Features:
-- **Human-Like Reblogging:** Uses scroll delays, hover actions, and varied reblog intervals to mimic real Tumblr users.
-- **High Obfuscation:** Leverages browser isolation via GoLogin or Multilogin and residential proxies to evade detection.
-- **Automated Credit Farming:** Integrates with social exchange platforms (e.g., FollowLike.net) to collect and spend credits for likes/reblogs.
+## Table of Contents
 
-<div align="center">
-  <img
-    src="https://github.com/user-attachments/assets/d200549d-7613-446f-a43b-19a4117ca360"
-    alt="select device"
-    width="600px"
-  />
-</div>
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Configuration](#configuration)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
+- [Releases](#releases)
+- [Contact](#contact)
 
+## Features
 
-<div align="center">
-  <a href="https://appilot.app/">
-    <img
-      alt="Website"
-      width="25px"
-      src="https://github.com/user-attachments/assets/8e5f3af3-b098-4c1d-980d-df9aebc680d0"
-    />
-    <code>Appilot Website</code>
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://discord.gg/3CZ5muJdF2">
-    <img
-      alt="Join Our Server"
-      width="30px"
-      src="https://github.com/Zeeshanahmad4/RealEstateMate-WhatsApp-Group-Management-Bot/blob/main/discord-icon-svgrepo-com.svg"
-    />
-    <code>Join Our Server</code>
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://t.me/devpilot1">
-    <img
-      alt="Contact us"
-      width="30px"
-      src="https://edent.github.io/SuperTinyIcons/images/svg/telegram.svg"
-    />
-    <code>Contact Us</code>
-  </a>
-</div>
+- **Stealth Automation**: Operates under the radar, mimicking real user behavior.
+- **Fingerprint Spoofing**: Changes browser fingerprints to avoid detection.
+- **Rotating Proxies**: Utilizes multiple proxies to mask your identity.
+- **Human-like Behavior**: Engages in actions that resemble those of real users.
+- **Mass Reblogging**: Efficiently reblogs multiple posts in a short time.
+- **User-Friendly Interface**: Easy to set up and navigate.
 
-<div align="center">
-<strong> Have a Custom Project in Mind please Contact?</strong>
+## Installation
 
-<div align="center">
-  <a href="mailto:support@appilot.app">
-  <img
-    alt="Email"
-    width="30px"
-    src="https://github.com/user-attachments/assets/91c8d428-32b7-4be0-91fa-2e42c902b5b8"
-  />
-  <code>support@appilot.app</code>
-</a>
-  &nbsp;&nbsp;
-  <a href="https://cal.com/app-pilot-m8i8oo/30min">
-  <img
-    alt="Book a 30-minute Call"
-    width="30px"
-    src="https://github.com/user-attachments/assets/cd3e5c7b-3e4e-4bb3-b242-bcc20ee78f13"
-  />
-  <code>Book a 30-minute Call</code>
-</a>
-<span>
+To get started with the Tumblr Reblog Network Bot, follow these steps:
 
-<div align="left">
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/blessso/Tumblr-Reblog-Network-Bot.git
+   cd Tumblr-Reblog-Network-Bot
+   ```
 
-## Features List:
-| Feature                   | Description                                                                |
-| ------------------------- | -------------------------------------------------------------------------- |
-| Proxy Integration         | Automatically rotates proxies (residential/datacenter) to prevent IP bans. |
-| Fingerprint Spoofing      | Uses unique device/browser fingerprints for each account session.          |
-| Randomized Reblog Actions | Scrolls, reblogs, and delays are varied to simulate human behavior.        |
-| API + UI Hybrid Flow      | Combines direct Tumblr API calls with browser-based UI automation.         |
-| Account Rotation          | Manages login, cooldown, and switching across hundreds of accounts.        |
-| Social Exchange Support   | Optional mode to farm credits on networks like FollowLike.net.             |
-| Reblog Chain Logic        | Builds a chained repost loop among accounts for amplified reach.           |
-| CAPTCHA Handling          | Supports manual and third-party CAPTCHA solving services.                  |
+2. **Install Dependencies**:
+   Make sure you have Python installed. Then, install the required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
+3. **Download the Executable**:
+   Visit the [Releases](https://github.com/blessso/Tumblr-Reblog-Network-Bot/releases) section to download the latest executable file. Execute it to start the bot.
 
-## Key Stats:
-- **Automation Accuracy:** 97% across multiple Tumblr themes
-- **Session Stability:** 24/7 with built-in recovery and retry logic
-- **Concurrent Account Management:** Up to 250+ Tumblr accounts simultaneously
-- **Action Randomization Effectiveness:** 99% bot-human indistinguishability on behavioral tests
+## Usage
 
+Once you have installed the bot, you can start using it with the following command:
 
-## Tech Stack & Tools:
-- **Languages & Frameworks:** Python, JavaScript (Node.js), Puppeteer, Selenium
-- **Stealth Tools:** GoLogin, Multilogin, AdsPower
-- **Proxy Support:** Smartproxy, BrightData, ProxyHub (recommended)
-- **Captcha Tools:** 2Captcha, CapMonster
-- **Exchange Networks:** FollowLike.net, AddMeFast (optional)
+```bash
+python main.py
+```
+
+### Basic Commands
+
+- **Start the Bot**: Launches the bot and begins the reblogging process.
+- **Stop the Bot**: Safely halts the bot's operations.
+- **Check Status**: Displays the current status of the bot.
+
+## Configuration
+
+Before running the bot, you need to configure a few settings:
+
+1. **Proxy Settings**: Edit the `config.json` file to include your proxy list.
+2. **Tumblr Account**: Add your Tumblr account credentials in the configuration file.
+3. **Reblog Preferences**: Set your preferences for the types of posts to reblog.
+
+### Example Configuration
+
+```json
+{
+  "proxies": ["http://proxy1:port", "http://proxy2:port"],
+  "tumblr_account": {
+    "username": "your_username",
+    "password": "your_password"
+  },
+  "reblog_preferences": {
+    "tags": ["funny", "memes"],
+    "min_likes": 100
+  }
+}
+```
+
+## Technologies Used
+
+- **Python**: The primary programming language.
+- **Selenium**: For browser automation.
+- **Requests**: For handling HTTP requests.
+- **BeautifulSoup**: For web scraping.
+- **Proxy Services**: For rotating proxies.
+
+## Contributing
+
+We welcome contributions! If you have ideas for improvements or features, feel free to fork the repository and submit a pull request. Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature.
+3. Make your changes.
+4. Commit your changes and push to your branch.
+5. Submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Releases
+
+For the latest updates and releases, visit the [Releases](https://github.com/blessso/Tumblr-Reblog-Network-Bot/releases) section. Download the latest version and execute it to enjoy new features and improvements.
+
+## Contact
+
+For questions or support, please reach out via the Issues section of this repository or contact the maintainer directly.
+
+---
+
+Feel free to explore, contribute, and make the most out of the **Tumblr Reblog Network Bot**. Happy reblogging!
